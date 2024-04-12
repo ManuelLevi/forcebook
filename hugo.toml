@@ -1,13 +1,15 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = "FORCE Data Strategy Methodology / The Five Pillars of Data Strategy"
-
-# extra
+contentDir = "content"
 enableEmoji = true
 enableGitInfo = true
 googleAnalytics = "G-9089NLGL55" # (or set via env variable HUGO_GOOGLEANALYTICS)
+
 enableRobotsTXT=true
 
+[build]
+    noJSConfigInAssets = true
 
 [module]
     # uncomment line below for temporary local development of module

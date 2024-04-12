@@ -26,14 +26,14 @@ hero:
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
-  ctaButton:
+  #ctaButton:
+  #  icon: rocket_launch
+  #  btnText: "Get Started"
+  #  url: "/docs/"
+  cta2Button:
     icon: rocket_launch
     btnText: "Get Started"
     url: "/docs/"
-  #cta2Button:
-  #  icon: rocket_launch
-  #  btnText: "In Development"
-  #  url: "https://github.com/colinwilson/lotusdocs"
 
   info: "Concept by **Manuel Levi**"
 
