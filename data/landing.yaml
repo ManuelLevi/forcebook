@@ -20,8 +20,8 @@ hero:
   subtitle: A **data strategy methodology** for organizations that are *serious about data and AI*.
 
   image:
-    path: "images" # path to image under configured assets directory. default 'images'
-    filename: "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
+    path: "images/templates/hero" # path to image under configured assets directory. default 'images'
+    filename: "force.png" # filename of your hero image (including file extension)
     alt: "Lotus Docs Screenshot" # Optional but recommended
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
@@ -29,7 +29,7 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Get Started"
-    url: "/docs/introduction/"
+    url: "/docs/"
   #cta2Button:
   #  icon: rocket_launch
   #  btnText: "In Development"
