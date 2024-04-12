@@ -1,0 +1,11 @@
+{{ $fileCount := 0 }}
+{{ range where .Site.Pages "Section" .Page.Section }}
+    {{ if and (ne .RelPermalink $.Page.RelPermalink) }}
+        {{ with .File }}
+            {{ if and (eq .Dir $.Page.File.Dir) (ne .BaseFileName "_index") }}
+                {{ $fileCount = add $fileCount 1 }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+{{ printf "%d" $fileCount }}

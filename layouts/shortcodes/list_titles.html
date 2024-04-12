@@ -1,0 +1,11 @@
+<ul class="file-links">
+    {{ range where .Site.Pages "Section" .Page.Section }}
+        {{ if and (ne .RelPermalink $.Page.RelPermalink) }}
+            {{ with .File }}
+                {{ if and (eq .Dir $.Page.File.Dir) (ne .BaseFileName "_index") }}
+                    <li><a href="{{ $.Page.RelPermalink }}">{{ $.Page.Title }}</a></li>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</ul>
