@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Sitemap: https://forcebook.ai/sitemap.xml
+
+User-agent: ia_archiver
+Disallow: /
